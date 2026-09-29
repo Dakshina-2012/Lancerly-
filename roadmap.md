@@ -1,0 +1,5 @@
+- [x] Use exact official logo and matching favicon.
+- [x] Create marketplace data model, protected accounts, and branded public pages.
+- [x] Connect project posting, proposals, profiles, messages, saved items, notifications, and dashboards.
+- [ ] Expand sample catalog to the brief's requested 30 projects and 15 freelancers; demo freelancer accounts require real account creation.
+- [ ] Add richer portfolio uploads and completed-project review workflows.
