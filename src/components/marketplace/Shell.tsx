@@ -6,7 +6,7 @@ import { supabase } from '@/integrations/supabase/client';
 import logo from '@/assets/lancerly-logo.png.asset.json';
 import type { User } from '@supabase/supabase-js';
 
-export function Brand({ large = false }: { large?: boolean }) { return <Link to="/" className="inline-flex shrink-0 items-center" aria-label="Lancerly home"><img src={logo.url} alt="Lancerly" className={large ? 'h-28 w-auto object-contain' : 'h-12 w-auto object-contain'} /></Link>; }
+export function Brand({ large = false }: { large?: boolean }) { return <Link to="/" className="inline-flex shrink-0 items-center" aria-label="Lancerly home"><img src={logo.url} alt="Lancerly" className={large ? 'h-28 w-auto object-contain' : 'h-16 w-auto object-contain'} /></Link>; }
 export function Shell({ children }: { children: React.ReactNode }) {
   const [user,setUser] = useState<User | null>(null);
   const [open,setOpen] = useState(false);
